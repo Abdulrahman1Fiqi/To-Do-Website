@@ -61,11 +61,12 @@ The project focuses on **backend fundamentals**, **security**, and **scalable La
 > Screenshots showcasing the application UI and features.
 
 ### Authentication
-![Login Page](screenshots/login.png)  
-![Register Page](screenshots/register.png)
+![Login Page](screenshots/2.jpeg)  
+![Register Page](screenshots/3.jpeg)
 
 ### Dashboard
-![Todo List](screenshots/todos.png)
+![Todo List](screenshots/1.jpeg)
+![Todos List](scree☻nshots/4.jpeg)
 
 ---
 
