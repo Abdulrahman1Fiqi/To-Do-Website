@@ -27,6 +27,11 @@
                                     <div style="color:red;">{{ $message }}</div>
                                 @enderror
                             </div>
+                            <div class="text-center mt-3">
+                                <span class="text-info">Don't have an account?</span>
+                                <a href="{{ route('register') }}" >Register</a>
+                            </div>
+
                             <div class="form-group text-center">
                                
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">

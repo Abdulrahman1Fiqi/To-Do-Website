@@ -22,6 +22,12 @@ class AuthController extends Controller
             'password'=>Hash::make($request->password)
         ]);
 
+        if(Auth::attempt($request->only('email','password'))){
+            $request->session()->regenerate();
+            return redirect('/todos');
+        }
+
+
         return redirect('/login');
 
     }
