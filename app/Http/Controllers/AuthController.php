@@ -12,8 +12,9 @@ class AuthController extends Controller
         $request->validate([
             'name'=>'required',
             'email'=>'required|email|unique:users',
-            'password'=>'required|min:6'
+            'password'=>'required|min:6|confirmed'
         ]);
+
 
         User::create([
             'name'=>$request->name,
@@ -48,6 +49,20 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
         return redirect('/login');
     }
+
+
+
+    public function loginForm(){
+        return view('auth.login');
+    }
+
+    public function registerForm(){
+        return view('auth.register');
+    }
+
+
+
+
 
 
 
