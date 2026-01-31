@@ -28,7 +28,12 @@
     @endguest
     @auth
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('logout') }}">Logout</a>
+            <form method="POST" action="{{ route('logout') }}">
+    @csrf
+    <button type="submit" class="nav-link">
+        Logout
+    </button>
+</form>
         </li>
     @endauth
 </ul>

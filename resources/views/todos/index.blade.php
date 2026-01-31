@@ -39,7 +39,7 @@
                             type="text" 
                             name="title" 
                             class="form-control form-control-lg" 
-                            placeholder="✍️ What do you want to do today?"
+                            placeholder="✍️ What do you want to do?"
                         >
                         <button class="btn btn-primary btn-lg">
                             Add
