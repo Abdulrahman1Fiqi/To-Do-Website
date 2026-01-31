@@ -70,9 +70,7 @@
                             <span class="fs-5">{{ $todo->title }}</span>
 
                             <div class="d-flex gap-2">
-                                <a href="{{ route('todos.edit',$todo) }}" class="btn btn-outline-warning btn-sm">
-                                    Edit
-                                </a>
+                                
 
                                 <form method="POST" action="{{ route('todos.destroy',$todo) }}">
                                     @csrf
