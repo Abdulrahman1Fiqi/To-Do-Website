@@ -66,7 +66,7 @@ The project focuses on **backend fundamentals**, **security**, and **scalable La
 
 ### Dashboard
 ![Todo List](screenshots/1.jpeg)
-![Todos List](scree☻nshots/4.jpeg)
+![Todos List](screenshots/4.jpeg)
 
 ---
 
